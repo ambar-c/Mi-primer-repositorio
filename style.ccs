@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: fle                                                                                                                                                                                                x;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: blue;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li a {
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar ul li a:hover {
+    background-color: #005599;
+}
+
+.main-content header{
+    margin-bottom: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20%;
+    background-color: #f5f5f5; 
+}
+.main-content h1 {
+    margin: 0;
+    font-size: 24px;
+    color: 003366;
+}
+
+.main-content p {
+    margin: 0;
+    color: #666;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+
+
+
+    Bienvenidos a ARCHIVO:</h1>
+                        <P>Hola mundo- aqui vamos otra vez</P>
+}
+
+0
+
+
+ <div>
+            <div class="main content">
+               <h1>Bienvenidos a: ARCHIVO</h1>
+                    <p> Hola mundo, aqui vamos otra vez!</p>
+                    <div class="atajos">
+                        <button>Nuevo Almacen</button>
+                      
+                    </div>
+            </div>
+        </div>
+
+        main-content .Atajos {
+    background-color:#4CAF50;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-decoration-line: underline;
+}
+
+main-content .Atajos button {
+    background-color: #4CAF50; 
+    border: none;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flexbox;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
